@@ -1,0 +1,966 @@
+[ {
+  "_id" : "6fea6118-e701-4ce1-b367-bd7d44475d57",
+  "question_text" : "You are migrating workloads to the cloud. The goal of the migration is to serve customers worldwide as quickly as possible According to local regulations, certain data is required to be stored in a specific geographic area, and it can be served worldwide. You need to design the architecture and deployment for your workloads. What should you do?",
+  "options" : [ {
+    "_id" : "4602c1d7-3730-4434-8499-7a160aa46308",
+    "option_txt" : "A. Select a public cloud provider that is only active in the required geographic area",
+    "option_value" : "A",
+    "correct" : false
+  }, {
+    "_id" : "2d1145fb-f649-4a08-a4e6-b816c5a818cb",
+    "option_txt" : "B. Select a private cloud provider that globally replicates data storage for fast data access",
+    "option_value" : "B",
+    "correct" : false
+  }, {
+    "_id" : "9fd41160-8ac6-4b80-8639-769590e9779c",
+    "option_txt" : "C. Select a public cloud provider that guarantees data location in the required geographic area",
+    "option_value" : "C",
+    "correct" : true
+  }, {
+    "_id" : "f4fefde3-f308-4bef-9622-3c7dde60d37f",
+    "option_txt" : "D. Select a private cloud provider that is only active in the required geographic area",
+    "option_value" : "D",
+    "correct" : false
+  } ]
+}, {
+  "_id" : "1ec67702-7151-4d44-9ac6-f9df4ff47fe1",
+  "question_text" : "Your organization needs a large amount of extra computing power within the next two weeks. After those two weeks, the need for the additional resources will end. Which is the most cost-effective approach?",
+  "options" : [ {
+    "_id" : "2df21495-2ebe-44c7-9433-69cc6706ffb0",
+    "option_txt" : "A. Use a committed use discount to reserve a very powerful virtual machine",
+    "option_value" : "A",
+    "correct" : false
+  }, {
+    "_id" : "12e66f8c-a59e-4647-bf42-b2c6d41bd483",
+    "option_txt" : "B. Purchase one very powerful physical computer",
+    "option_value" : "B",
+    "correct" : false
+  }, {
+    "_id" : "116a25ab-0d99-4417-b004-df793071aa41",
+    "option_txt" : "C. Start a very powerful virtual machine without using a committed use discount",
+    "option_value" : "C",
+    "correct" : true
+  }, {
+    "_id" : "759f5b23-e459-4813-82d0-e9c629c2d335",
+    "option_txt" : "D. Purchase multiple physical computers and scale workload across them",
+    "option_value" : "D",
+    "correct" : false
+  } ]
+}, {
+  "_id" : "39f37895-9fe9-44b9-89be-ad3f43fe9249",
+  "question_text" : "Your organization needs to plan its cloud infrastructure expenditures. Which should your organization do?",
+  "options" : [ {
+    "_id" : "27984218-39ca-4649-8609-29fe66e6094a",
+    "option_txt" : "A. Review cloud resource costs frequently, because costs change often based on use",
+    "option_value" : "A",
+    "correct" : true
+  }, {
+    "_id" : "4dc18316-545e-4016-a322-463c0779e43f",
+    "option_txt" : "B. Review cloud resource costs annually as part of planning your organization overall budget",
+    "option_value" : "B",
+    "correct" : false
+  }, {
+    "_id" : "9120dfaa-25b1-4fc9-98a7-41a494ae52cb",
+    "option_txt" : "C. If your organization uses only cloud resources, infrastructure costs are no longer part of your overall budget",
+    "option_value" : "C",
+    "correct" : false
+  }, {
+    "_id" : "50b58686-9970-412d-879a-35096b50dc55",
+    "option_txt" : "D. Involve fewer people in cloud resource planning than your organization did for on-premises resource planning",
+    "option_value" : "D",
+    "correct" : false
+  } ]
+}, {
+  "_id" : "c18f3959-62de-44ef-be68-4ff8374cee7f",
+  "question_text" : "The operating systems of some of your organization's virtual machines may have a security vulnerability. How can your organization most effectively identify all virtual machines that do not have the latest security update?",
+  "options" : [ {
+    "_id" : "9871469b-28b2-4f03-9e2a-044ecebd2bef",
+    "option_txt" : "A. View the Security Command Center to identify virtual machines running vulnerable disk images",
+    "option_value" : "A",
+    "correct" : true
+  }, {
+    "_id" : "a478b1c6-c0cf-4234-a1f0-e0bd0b8c068c",
+    "option_txt" : "B. View the Compliance Reports Manager to identify and download a recent PCI audit",
+    "option_value" : "B",
+    "correct" : false
+  }, {
+    "_id" : "d9301c61-fad5-4903-9cff-c0d4416fc0ac",
+    "option_txt" : "C. View the Security Command Center to identify virtual machines started more than 2 weeks ago",
+    "option_value" : "C",
+    "correct" : false
+  }, {
+    "_id" : "57824719-0779-4193-8c8c-82f5cf3451c9",
+    "option_txt" : "D. View the Compliance Reports Manager to identify and download a recent SOC 1 audit",
+    "option_value" : "D",
+    "correct" : false
+  } ]
+}, {
+  "_id" : "89666eef-65ed-4721-a016-c259ad4a4db2",
+  "question_text" : "You are currently managing workloads running on Windows Server for which your company owns the licenses. Your workloads are only needed during working hours, which allows you to shut down the instances during the weekend. Your Windows Server licenses are up for renewal in a month, and you want to optimize your license cost. What should you do?",
+  "options" : [ {
+    "_id" : "ce83c0b6-31f6-4224-8872-0248c7c2456c",
+    "option_txt" : "A. Renew your licenses for an additional period of 3 years. Renew your licenses for an additional period of 3 years. Negotiate a cost reduction with your current hosting provider wherein infrastructure cost is reduced when workloads are not in use",
+    "option_value" : "A",
+    "correct" : false
+  }, {
+    "_id" : "2303f6ce-b9b1-4de5-a73f-dc20fa6b3233",
+    "option_txt" : "B. Renew your licenses for an additional period of 2 years. Negotiate a cost reduction by committing to an automatic renewal of the licenses at the end of the 2 year period",
+    "option_value" : "B",
+    "correct" : false
+  }, {
+    "_id" : "772a9f6a-2df2-429e-af2c-1f38f51b838a",
+    "option_txt" : "C. Migrate the workloads to Compute Engine with a bring-your-own-license (BYOL) model",
+    "option_value" : "C",
+    "correct" : true
+  }, {
+    "_id" : "13890f67-51b6-4c6f-9ebb-c18c4ade275e",
+    "option_txt" : "D. Migrate the workloads to Compute Engine with a pay-as-you-go (PAYG) model",
+    "option_value" : "D",
+    "correct" : false
+  } ]
+}, {
+  "_id" : "8d544036-9367-4f74-a8f7-fae90053993e",
+  "question_text" : "Your organization runs a distributed application in the Compute Engine virtual machines. Your organization needs redundancy, but it also needs extremely fast communication (less than 10 milliseconds) between the parts of the application in different virtual machines. Where should your organization locate this virtual machines?",
+  "options" : [ {
+    "_id" : "99dfe10f-076a-4b0c-87e5-0c0b38dcfe45",
+    "option_txt" : "A. In a single zone within a single region",
+    "option_value" : "A",
+    "correct" : false
+  }, {
+    "_id" : "b01d0304-9aa6-40fe-a551-8989378e6949",
+    "option_txt" : "B. In different zones within a single region",
+    "option_value" : "B",
+    "correct" : false
+  }, {
+    "_id" : "6bdd3ef5-08ee-4d80-96d9-e0069636ea5b",
+    "option_txt" : "C. In multiple regions, using one zone per region",
+    "option_value" : "C",
+    "correct" : false
+  }, {
+    "_id" : "2a088ded-d36d-4caf-ab21-10d9b6d6f494",
+    "option_txt" : "D. In multiple regions, using multiple zones per region",
+    "option_value" : "D",
+    "correct" : true
+  } ]
+}, {
+  "_id" : "a03de1b2-a343-4f79-8b20-7649b4b654e9",
+  "question_text" : "An organization decides to migrate their on-premises environment to the cloud. They need to determine which resource components still need to be assigned ownership. Which two functions does a public cloud provider own? (Choose two.)",
+  "options" : [ {
+    "_id" : "8d058da4-965d-4f75-946d-8cc87215bcc7",
+    "option_txt" : "A. Hardware maintenance",
+    "option_value" : "A",
+    "correct" : true
+  }, {
+    "_id" : "d56066fb-0ec9-4476-9cfd-2e006e0fafa3",
+    "option_txt" : "B. Infrastructure architecture",
+    "option_value" : "B",
+    "correct" : false
+  }, {
+    "_id" : "a345647a-5ef2-4c87-b4bf-7fb150fdb51b",
+    "option_txt" : "C. Infrastructure deployment automation",
+    "option_value" : "C",
+    "correct" : false
+  }, {
+    "_id" : "e509b41d-ea33-4691-b7c5-c7057990d397",
+    "option_txt" : "D. Hardware capacity management",
+    "option_value" : "D",
+    "correct" : true
+  }, {
+    "_id" : "9e40b74a-4ac1-468d-bb8d-5268415ddf90",
+    "option_txt" : "E. Fixing application security issues",
+    "option_value" : "E",
+    "correct" : false
+  } ]
+}, {
+  "_id" : "138fbdd9-b81a-4809-9520-0ba79f332f3c",
+  "question_text" : "You are a program manager within a Software as a Service (SaaS) company that offers rendering software for animation studios. Your team needs the ability to allow scenes to be scheduled at will and to be interrupted at any time to restart later. Any individual scene rendering takes less than 12 hours to complete, and there is no service-level agreement (SLA) for the completion time for all scenes. Results will be stored in a global Cloud Storage bucket. The compute resources are not bound to any single geographical location. This software needs to run on Google Cloud in a cost-optimized way. What should you do?",
+  "options" : [ {
+    "_id" : "e8ee01bb-2007-4b6a-872e-e4acd8050ba2",
+    "option_txt" : "A. Deploy the application on Compute Engine using preemptible instances",
+    "option_value" : "A",
+    "correct" : true
+  }, {
+    "_id" : "f8df3776-6b09-4c10-9c14-f5b29532c69e",
+    "option_txt" : "B. Develop the application so it can run in an unmanaged instance group",
+    "option_value" : "B",
+    "correct" : false
+  }, {
+    "_id" : "53e5e01d-13fe-4e70-9540-0448e6a41536",
+    "option_txt" : "C. Create a reservation for the minimum number of Compute Engine instances you will use",
+    "option_value" : "C",
+    "correct" : false
+  }, {
+    "_id" : "bac52b24-b5af-4b14-a53a-b36e6a439976",
+    "option_txt" : "D. Start more instances with fewer virtual centralized processing units (vCPUs) instead of fewer instances with more vCPUs",
+    "option_value" : "D",
+    "correct" : false
+  } ]
+}, {
+  "_id" : "fa304d76-0deb-4b02-972f-c608738ce222",
+  "question_text" : "Your manager wants to restrict communication of all virtual machines with internet access; with resources in another network; or with a resource outside Compute Engine. It is expected that different teams will create new folders and projects in the near future. How would you restrict all virtual machines from having an external IP address?",
+  "options" : [ {
+    "_id" : "536c5982-b3fa-40ec-83e4-118aac110bc9",
+    "option_txt" : "A. Define an organization policy at the root organization node to restrict virtual machine instances from having an external IP address",
+    "option_value" : "A",
+    "correct" : true
+  }, {
+    "_id" : "26fd450f-6be0-4b07-8d69-d25a70863eaa",
+    "option_txt" : "B. Define an organization policy on all existing folders to define a constraint to restrict virtual machine instances from having an external IP address",
+    "option_value" : "B",
+    "correct" : false
+  }, {
+    "_id" : "b98c21ed-e360-4338-9341-85dfd80f8f29",
+    "option_txt" : "C. Define an organization policy on all existing projects to restrict virtual machine instances from having an external IP address",
+    "option_value" : "C",
+    "correct" : false
+  }, {
+    "_id" : "596e54a9-9487-47a0-bd01-9bd19eb8f1fe",
+    "option_txt" : "D. Communicate with the different teams and agree that each time a virtual machine is created, it must be configured without an external IP address",
+    "option_value" : "D",
+    "correct" : false
+  } ]
+}, {
+  "_id" : "5f3e61c5-56f1-4970-89b3-62edb5e14a39",
+  "question_text" : "Your multinational organization has servers running mission-critical workloads on its premises around the world. You want to be able to manage these workloads consistently and centrally, and you want to stop managing infrastructure. What should your organization do?",
+  "options" : [ {
+    "_id" : "b380afff-294e-4ebf-abb4-aae11dbecffa",
+    "option_txt" : "A. Migrate the workloads to a public cloud",
+    "option_value" : "A",
+    "correct" : true
+  }, {
+    "_id" : "aa80132e-ee20-4ff3-ad1d-d068196d0abb",
+    "option_txt" : "B. Migrate the workloads to a central office building",
+    "option_value" : "B",
+    "correct" : false
+  }, {
+    "_id" : "ab12e886-37e6-47c2-949b-e3b103880294",
+    "option_txt" : "C. Migrate the workloads to multiple local co-location facilities",
+    "option_value" : "C",
+    "correct" : false
+  }, {
+    "_id" : "21ced384-9c83-4ec7-b972-8abdc593f9dc",
+    "option_txt" : "D. Migrate the workloads to multiple local private clouds",
+    "option_value" : "D",
+    "correct" : false
+  } ]
+}, {
+  "_id" : "7fb80dc4-dca5-4a2a-ae59-9f9ccc57a382",
+  "question_text" : "Your organization stores highly sensitive data on-premises that cannot be sent over the public internet. The data must be processed both on-premises and in the cloud. What should your organization do?",
+  "options" : [ {
+    "_id" : "ef17c6dc-ad23-4a5a-b471-e657d540db06",
+    "option_txt" : "A. Configure Identity-Aware Proxy (IAP) in your Google Cloud VPC network",
+    "option_value" : "A",
+    "correct" : false
+  }, {
+    "_id" : "8b6d25c4-228f-4094-af33-e59e7ae9bfec",
+    "option_txt" : "B. Create a Cloud VPN tunnel between Google Cloud and your data center",
+    "option_value" : "B",
+    "correct" : false
+  }, {
+    "_id" : "74c06f2c-b631-40ad-bc1d-379fc0ddca0a",
+    "option_txt" : "C. Order a Partner Interconnect connection with your network provider",
+    "option_value" : "C",
+    "correct" : true
+  }, {
+    "_id" : "6fb8bcff-1b99-44a7-ba2a-80e4b2b14d6f",
+    "option_txt" : "D. Enable Private Google Access in your Google Cloud VPC network",
+    "option_value" : "D",
+    "correct" : false
+  } ]
+}, {
+  "_id" : "056e85e7-5c90-4c1c-9e38-c50e94c163bc",
+  "question_text" : "Your company's development team is building an application that will be deployed on Cloud Run. You are designing a CI/CD pipeline so that any new version of the application can be deployed in the fewest number of steps possible using the CI/CD pipeline you are designing. You need to select a storage location for the images of the application after the CI part of your pipeline has built them. What should you do?",
+  "options" : [ {
+    "_id" : "e080dd09-30f1-4334-8a13-57201aeac910",
+    "option_txt" : "A. Create a Compute Engine image containing the application",
+    "option_value" : "A",
+    "correct" : false
+  }, {
+    "_id" : "dc0521fd-e9b1-40bb-98c7-f4bba41e4f34",
+    "option_txt" : "B. Store the images in Container Registry",
+    "option_value" : "B",
+    "correct" : true
+  }, {
+    "_id" : "8c871d59-957e-44b3-8ce2-fe527211cb3f",
+    "option_txt" : "C. Store the images in Cloud Storage",
+    "option_value" : "C",
+    "correct" : false
+  }, {
+    "_id" : "9058ff5b-9984-4717-9182-969cc4e9c45f",
+    "option_txt" : "D. Create a Compute Engine disk containing the application",
+    "option_value" : "D",
+    "correct" : false
+  } ]
+}, {
+  "_id" : "bd24ab9d-d6a7-40e3-b6a1-0799bd814ce4",
+  "question_text" : "Each of the three cloud service models - infrastructure as a service (IaaS), platform as a service (PaaS), and software as a service (SaaS) - offers benefits between flexibility and levels of management by the cloud provider and the customer. Why would SaaS be the right choice of service model?",
+  "options" : [ {
+    "_id" : "70d66f69-28d3-43f3-ac63-9a993e5cc75b",
+    "option_txt" : "A. You want a balance between flexibility for the customer and the level of management by the cloud provider",
+    "option_value" : "A",
+    "correct" : false
+  }, {
+    "_id" : "a452cce7-f2f1-4763-8b6a-a4ef17d37456",
+    "option_txt" : "B. You want to minimize the level of management by the customer",
+    "option_value" : "B",
+    "correct" : true
+  }, {
+    "_id" : "98de5611-2c5d-426f-affa-677e5e5f4b0e",
+    "option_txt" : "C. You want to maximize flexibility for the customer.",
+    "option_value" : "C",
+    "correct" : false
+  }, {
+    "_id" : "0652647e-5b94-403a-b28d-17b59ddc212f",
+    "option_txt" : "D. You want to be able to shift your emphasis between flexibility and management by the cloud provider as business needs change",
+    "option_value" : "D",
+    "correct" : false
+  } ]
+}, {
+  "_id" : "ecc2dd8b-c666-4fcd-9eff-e9b2632154e9",
+  "question_text" : "As your organization increases its release velocity, the VM-based application upgrades take a long time to perform rolling updates due to OS boot times. You need to make the application deployments faster. What should your organization do?",
+  "options" : [ {
+    "_id" : "16ff22d4-4099-4778-a1ff-eb1e4c3ada06",
+    "option_txt" : "A. Migrate your VMs to the cloud, and add more resources to them",
+    "option_value" : "A",
+    "correct" : false
+  }, {
+    "_id" : "ec12e548-1010-43e2-96e8-d5e2c5c7931d",
+    "option_txt" : "B. Convert your applications into containers",
+    "option_value" : "B",
+    "correct" : true
+  }, {
+    "_id" : "53e406de-dac2-46e2-9e8b-8a5c14179974",
+    "option_txt" : "C. Increase the resources of your VMs",
+    "option_value" : "C",
+    "correct" : false
+  }, {
+    "_id" : "70239305-a138-44ba-b308-c9eb9b4eb63e",
+    "option_txt" : "D. Automate your upgrade rollouts",
+    "option_value" : "D",
+    "correct" : false
+  } ]
+}, {
+  "_id" : "04406940-9c74-45cb-9993-89f7423c5dc9",
+  "question_text" : "Your organization uses Active Directory to authenticate users. Users' Google account access must be removed when their Active Directory account is terminated. How should your organization meet this requirement?",
+  "options" : [ {
+    "_id" : "54c4e87f-65d5-4ee8-8341-f44381936bcb",
+    "option_txt" : "A. Configure two-factor authentication in the Google domain",
+    "option_value" : "A",
+    "correct" : false
+  }, {
+    "_id" : "8f63d341-ad78-4c22-b0bb-69d36f488728",
+    "option_txt" : "B. Remove the Google account from all IAM policies",
+    "option_value" : "B",
+    "correct" : false
+  }, {
+    "_id" : "124de765-8de2-44f9-9e7a-c80dd7962c80",
+    "option_txt" : "C. Configure BeyondCorp and Identity-Aware Proxy in the Google domain",
+    "option_value" : "C",
+    "correct" : false
+  }, {
+    "_id" : "2711d738-0285-47e2-8cf2-abbbcf9681f3",
+    "option_txt" : "D. Configure single sign-on in the Google domain",
+    "option_value" : "D",
+    "correct" : true
+  } ]
+}, {
+  "_id" : "4f71469e-2f83-4e65-84fc-6abf264b6347",
+  "question_text" : "Your company has recently acquired three growing startups in three different countries. You want to reduce overhead in infrastructure management and keep your costs low without sacrificing security and quality of service to your customers. How should you meet these requirements?",
+  "options" : [ {
+    "_id" : "f3ae3bfb-3cd6-402d-8354-39ecae52dd9d",
+    "option_txt" : "A. Host all your subsidiaries×’â‚¬â„¢ services on-premises together with your existing services.",
+    "option_value" : "A",
+    "correct" : false
+  }, {
+    "_id" : "8614c55a-c940-483b-aa76-3f4cd6adc480",
+    "option_txt" : "B. Host all your subsidiaries×’â‚¬â„¢ services together with your existing services on the public cloud.",
+    "option_value" : "B",
+    "correct" : true
+  }, {
+    "_id" : "57c9befa-9f60-4a57-8273-40aca7328b44",
+    "option_txt" : "C. Build a homogenous infrastructure at each subsidiary, and invest in training their engineers.",
+    "option_value" : "C",
+    "correct" : false
+  }, {
+    "_id" : "538f55f0-1c47-4e5b-be10-8fc04c64ca42",
+    "option_txt" : "D. Build a homogenous infrastructure at each subsidiary, and invest in hiring more engineers.",
+    "option_value" : "D",
+    "correct" : false
+  } ]
+}, {
+  "_id" : "88635b71-6c35-413c-8430-f17cb5a877e3",
+  "question_text" : "What is the difference between Standard and Coldline storage?",
+  "options" : [ {
+    "_id" : "d25469ea-ec61-495e-a90f-19eb812449e7",
+    "option_txt" : "A. Coldline storage is for data for which a slow transfer rate is acceptable.",
+    "option_value" : "A",
+    "correct" : false
+  }, {
+    "_id" : "8e2cfa8e-9419-4fc9-8317-6c842928787d",
+    "option_txt" : "B. Standard and Coldline storage have different durability guarantees.",
+    "option_value" : "B",
+    "correct" : false
+  }, {
+    "_id" : "3414ef09-35bd-4060-9146-bf1f16b9e1e2",
+    "option_txt" : "C. Standard and Coldline storage use different APIs.",
+    "option_value" : "C",
+    "correct" : false
+  }, {
+    "_id" : "7927f084-566d-4530-9295-787f3961e016",
+    "option_txt" : "D. Coldline storage is for infrequently accessed data.",
+    "option_value" : "D",
+    "correct" : true
+  } ]
+}, {
+  "_id" : "6906c6cd-5a06-4594-83c8-f7a6592fb6f8",
+  "question_text" : "What would provide near-unlimited availability of computing resources without requiring your organization to procure and provision new equipment?",
+  "options" : [ {
+    "_id" : "2f7b0982-bc07-4994-af7a-4f4ffca49c52",
+    "option_txt" : "A. Public cloud",
+    "option_value" : "A",
+    "correct" : true
+  }, {
+    "_id" : "97ea3886-3726-4922-a8f9-ff0cdeaafd7e",
+    "option_txt" : "B. Containers",
+    "option_value" : "B",
+    "correct" : false
+  }, {
+    "_id" : "372fcd3c-8fe2-49b1-b714-b9614e58186d",
+    "option_txt" : "C. Private cloud",
+    "option_value" : "C",
+    "correct" : false
+  }, {
+    "_id" : "f095c7e8-0191-49d3-a20b-c3a6d42a05b3",
+    "option_txt" : "D. Microservices",
+    "option_value" : "D",
+    "correct" : false
+  } ]
+}, {
+  "_id" : "ec69aa81-53b9-4f7b-8b0f-ceb1b550e4c4",
+  "question_text" : "You are a program manager for a team of developers who are building an event-driven application to allow users to follow one another's activities in the app. Each time a user adds himself as a follower of another user, a write occurs in the real-time database. The developers will develop a lightweight piece of code that can respond to database writes and generate a notification to let the appropriate users know that they have gained new followers. The code should integrate with other cloud services such as Pub/Sub, Firebase, and Cloud APIs to streamline the orchestration process. The application requires a platform that automatically manages underlying infrastructure and scales to zero when there is no activity. Which primary compute resource should your developers select, given these requirements?",
+  "options" : [ {
+    "_id" : "3fdba531-5c1d-41fa-9538-f456ec112646",
+    "option_txt" : "A. Google Kubernetes Engine",
+    "option_value" : "A",
+    "correct" : false
+  }, {
+    "_id" : "05986ff1-d89b-4849-87d3-0b649857ee73",
+    "option_txt" : "B. Cloud Functions",
+    "option_value" : "B",
+    "correct" : true
+  }, {
+    "_id" : "19552815-36a0-448a-a3ad-e589e84276a2",
+    "option_txt" : "C. App Engine flexible environment",
+    "option_value" : "C",
+    "correct" : false
+  }, {
+    "_id" : "622842bd-47ad-4197-87e3-5ae7b970f7d6",
+    "option_txt" : "D. Compute Engine",
+    "option_value" : "D",
+    "correct" : false
+  } ]
+}, {
+  "_id" : "f3b0abec-1a9e-47a6-838a-2460814cdbec",
+  "question_text" : "Your organization is developing an application that will capture a large amount of data from millions of different sensor devices spread all around the world. Your organization needs a database that is suitable for worldwide, high-speed data storage of a large amount of unstructured data. Which Google Cloud product should your organization choose?",
+  "options" : [ {
+    "_id" : "8f3b1cbb-2745-4193-960a-0aaf154cab78",
+    "option_txt" : "A. Firestore",
+    "option_value" : "A",
+    "correct" : false
+  }, {
+    "_id" : "7d1edd2c-a15d-4071-84ee-4ae3f2916d4c",
+    "option_txt" : "B. Cloud Data Fusion",
+    "option_value" : "B",
+    "correct" : false
+  }, {
+    "_id" : "9590eec1-4636-42ff-82ca-6599f50e10bf",
+    "option_txt" : "C. Cloud SQL",
+    "option_value" : "C",
+    "correct" : false
+  }, {
+    "_id" : "590e379a-da2a-404d-bb5b-2b3b1e979bcc",
+    "option_txt" : "D. Cloud Bigtable",
+    "option_value" : "D",
+    "correct" : true
+  } ]
+}, {
+  "_id" : "faf3e683-4c29-4914-9afa-c0db68ea6be1",
+  "question_text" : "Your organization needs to build streaming data pipelines. You don't want to manage the individual servers that do the data processing in the pipelines. Instead, you want a managed service that will automatically scale with the amount of data to be processed. Which Google Cloud product or feature should your organization choose?",
+  "options" : [ {
+    "_id" : "42281f9e-37de-4649-b5dd-78e6ce08c30a",
+    "option_txt" : "A. Pub/Sub",
+    "option_value" : "A",
+    "correct" : false
+  }, {
+    "_id" : "cb4a3573-1570-48a1-bdad-c1db87728191",
+    "option_txt" : "B. Dataflow",
+    "option_value" : "B",
+    "correct" : true
+  }, {
+    "_id" : "f9766fa7-5590-4681-9c42-a02745522e6f",
+    "option_txt" : "C. Data Catalog",
+    "option_value" : "C",
+    "correct" : false
+  }, {
+    "_id" : "8fea209f-3250-49c6-8273-d55899f93c6b",
+    "option_txt" : "D. Dataprep by Trifacta",
+    "option_value" : "D",
+    "correct" : false
+  } ]
+}, {
+  "_id" : "db6cb3cb-8bc7-45d8-81c3-1eb64254612c",
+  "question_text" : "Your organization is building an application running in Google Cloud. Currently, software builds, tests, and regular deployments are done manually, but you want to reduce work for the team. Your organization wants to use Google Cloud managed solutions to automate your build, testing, and deployment process. Which Google Cloud product or feature should your organization use?",
+  "options" : [ {
+    "_id" : "c6d98090-c49c-4749-ba01-8cdc622a8f3b",
+    "option_txt" : "A. Cloud Scheduler",
+    "option_value" : "A",
+    "correct" : false
+  }, {
+    "_id" : "f52eda87-e638-4d99-87db-4b4932ee0a22",
+    "option_txt" : "B. Cloud Code",
+    "option_value" : "B",
+    "correct" : false
+  }, {
+    "_id" : "f6b26558-accb-45be-adfc-337465b70266",
+    "option_txt" : "C. Cloud Build",
+    "option_value" : "C",
+    "correct" : true
+  }, {
+    "_id" : "97c6ed80-86bf-49fe-a87e-3eba2c11c3a2",
+    "option_txt" : "D. Cloud Deployment Manager",
+    "option_value" : "D",
+    "correct" : false
+  } ]
+}, {
+  "_id" : "576f257d-af82-4884-ae82-1ad41e36b689",
+  "question_text" : "Which Google Cloud product can report on and maintain compliance on your entire Google Cloud organization to cover multiple projects?",
+  "options" : [ {
+    "_id" : "9ea32e75-1bb4-484f-9881-a2145aa00c57",
+    "option_txt" : "A. Cloud Logging",
+    "option_value" : "A",
+    "correct" : false
+  }, {
+    "_id" : "18a29f83-ca93-42c0-92ef-e10a4397cd53",
+    "option_txt" : "B. Identity and Access Management",
+    "option_value" : "B",
+    "correct" : true
+  }, {
+    "_id" : "a3be6301-ca04-4754-8bbb-036eace7011b",
+    "option_txt" : "C. Google Cloud Armor",
+    "option_value" : "C",
+    "correct" : false
+  }, {
+    "_id" : "14f19976-fb12-4829-ac4c-53bf32352c1c",
+    "option_txt" : "D. Security Command Center",
+    "option_value" : "D",
+    "correct" : false
+  } ]
+}, {
+  "_id" : "b9f1898b-b063-4018-9a44-944bf88ab276",
+  "question_text" : "Your organization needs to establish private network connectivity between its on-premises network and its workloads running in Google Cloud. You need to be able to set up the connection as soon as possible. Which Google Cloud product or feature should you use?",
+  "options" : [ {
+    "_id" : "967dcd99-823f-445c-a7e4-80c1138c9490",
+    "option_txt" : "A. Cloud Interconnect",
+    "option_value" : "A",
+    "correct" : false
+  }, {
+    "_id" : "438e28ae-5966-49f2-925a-255a5e13af2f",
+    "option_txt" : "B. Direct Peering",
+    "option_value" : "B",
+    "correct" : false
+  }, {
+    "_id" : "1b0cf2b6-d57e-477b-bb8c-21cf50b200a2",
+    "option_txt" : "C. Cloud VPN",
+    "option_value" : "C",
+    "correct" : true
+  }, {
+    "_id" : "d919d978-a2a6-4b7f-b3a8-aba60c3016ef",
+    "option_txt" : "D. Cloud CDN",
+    "option_value" : "D",
+    "correct" : false
+  } ]
+}, {
+  "_id" : "d697142d-2794-4fc7-bf6a-25badaaf50f9",
+  "question_text" : "Your organization is developing a mobile app and wants to select a fully featured cloud-based compute platform for it. Which Google Cloud product or feature should your organization use?",
+  "options" : [ {
+    "_id" : "90df8ba9-d107-4b44-ac2a-96f0c7b61b35",
+    "option_txt" : "A. Google Kubernetes Engine",
+    "option_value" : "A",
+    "correct" : false
+  }, {
+    "_id" : "97e6816e-8d32-436c-91fb-1ee4b7e84722",
+    "option_txt" : "B. Firebase",
+    "option_value" : "B",
+    "correct" : true
+  }, {
+    "_id" : "558c569d-3f23-439a-9149-3dc9b4dce455",
+    "option_txt" : "C. Cloud Functions",
+    "option_value" : "C",
+    "correct" : false
+  }, {
+    "_id" : "d50136b6-3c32-4dc4-8f89-4683d190884c",
+    "option_txt" : "D. App Engine",
+    "option_value" : "D",
+    "correct" : false
+  } ]
+}, {
+  "_id" : "c0409ea7-3630-41a3-bbab-79f65abc7d61",
+  "question_text" : "Your company has been using a shared facility for data storage and will be migrating to Google Cloud. One of the internal applications uses Linux custom images that need to be migrated. Which Google Cloud product should you use to maintain the custom images?",
+  "options" : [ {
+    "_id" : "07264c99-8b41-47df-972b-83bcb7a5a6c9",
+    "option_txt" : "A. App Engine flexible environment",
+    "option_value" : "A",
+    "correct" : false
+  }, {
+    "_id" : "79887dc7-5708-4085-b15a-3c5a29eab9a8",
+    "option_txt" : "B. Compute Engine",
+    "option_value" : "B",
+    "correct" : true
+  }, {
+    "_id" : "26314c1e-a8a1-4946-8aa3-f7b4d3b3a59b",
+    "option_txt" : "C. App Engine standard environment",
+    "option_value" : "C",
+    "correct" : false
+  }, {
+    "_id" : "9a4b2df5-0537-4fe5-bbeb-122a8970128c",
+    "option_txt" : "D. Google Kubernetes Engine",
+    "option_value" : "D",
+    "correct" : false
+  } ]
+}, {
+  "_id" : "05a00f17-4177-4e8d-ae09-a607e806dbc2",
+  "question_text" : "Your organization wants to migrate its data management solutions to Google Cloud because it needs to dynamically scale up or down and to run transactional SQL queries against historical data at scale. Which Google Cloud product or service should your organization use?",
+  "options" : [ {
+    "_id" : "2ee30466-b85f-4345-a4e0-4d9e8fff2e9a",
+    "option_txt" : "A. BigQuery",
+    "option_value" : "A",
+    "correct" : false
+  }, {
+    "_id" : "6328fbeb-4429-4ac6-bc4e-419b72694914",
+    "option_txt" : "B. Cloud Bigtable",
+    "option_value" : "B",
+    "correct" : false
+  }, {
+    "_id" : "a464aa81-c7f4-46af-8a11-daf4de888bd1",
+    "option_txt" : "C. Pub/Sub",
+    "option_value" : "C",
+    "correct" : false
+  }, {
+    "_id" : "c7acae7a-3496-40b3-8eac-1d854cbfcd46",
+    "option_txt" : "D. Cloud Spanner",
+    "option_value" : "D",
+    "correct" : true
+  } ]
+}, {
+  "_id" : "ad89a844-d611-4474-aeea-c5862d2ca45e",
+  "question_text" : "Your organization needs to categorize objects in a large group of static images using machine learning. Which Google Cloud product or service should your organization use?",
+  "options" : [ {
+    "_id" : "649368e4-1cad-4239-8b83-16845dcd0bf6",
+    "option_txt" : "A. BigQuery ML",
+    "option_value" : "A",
+    "correct" : false
+  }, {
+    "_id" : "9a80fb3b-bac8-4276-bd05-9b1b66e03151",
+    "option_txt" : "B. AutoML Video Intelligence",
+    "option_value" : "B",
+    "correct" : false
+  }, {
+    "_id" : "89c0230f-a2ac-4d98-b9a7-fe456a196a8e",
+    "option_txt" : "C. Cloud Vision API",
+    "option_value" : "C",
+    "correct" : true
+  }, {
+    "_id" : "5f45aa6c-cc95-4923-a61e-0ce7dc877fae",
+    "option_txt" : "D. AutoML Tables",
+    "option_value" : "D",
+    "correct" : false
+  } ]
+}, {
+  "_id" : "332f18e3-959b-4c80-ae65-c36feca2fc95",
+  "question_text" : "Your organization runs all its workloads on Compute Engine virtual machine instances. Your organization has a security requirement: the virtual machines are not allowed to access the public internet. The workloads running on those virtual machines need to access BigQuery and Cloud Storage, using their publicly accessible interfaces, without violating the security requirement. Which Google Cloud product or feature should your organization use?",
+  "options" : [ {
+    "_id" : "6b3348d3-504c-4cd8-9f40-c87b0bd7137c",
+    "option_txt" : "A. Identity-Aware Proxy",
+    "option_value" : "A",
+    "correct" : false
+  }, {
+    "_id" : "9d0d3d5f-1102-42e1-8478-b8ff33c4b45d",
+    "option_txt" : "B. Cloud NAT (network address translation)",
+    "option_value" : "B",
+    "correct" : true
+  }, {
+    "_id" : "616ad96b-f948-4697-90cd-4aa9cc220a60",
+    "option_txt" : "C. VPC internal load balancers",
+    "option_value" : "C",
+    "correct" : false
+  }, {
+    "_id" : "f391730e-39a0-4c66-9db4-f3919bb9e57c",
+    "option_txt" : "D. Private Google Access",
+    "option_value" : "D",
+    "correct" : false
+  } ]
+}, {
+  "_id" : "624a5219-0c05-48f3-8fcf-aaf35febc87d",
+  "question_text" : "Which Google Cloud product is designed to reduce the risks of handling personally identifiable information (PII)?",
+  "options" : [ {
+    "_id" : "0cce79c6-e042-4c21-a5ca-a6427c46a4cf",
+    "option_txt" : "A. Cloud Storage",
+    "option_value" : "A",
+    "correct" : false
+  }, {
+    "_id" : "d611e4a8-c444-49b3-a1de-e73f283500f9",
+    "option_txt" : "B. Google Cloud Armor",
+    "option_value" : "B",
+    "correct" : false
+  }, {
+    "_id" : "0699b508-8d3a-4ac7-8a0c-85264ffe688f",
+    "option_txt" : "C. Cloud Data Loss Prevention",
+    "option_value" : "C",
+    "correct" : true
+  }, {
+    "_id" : "6319feed-d7d8-4ffd-be59-6d9013b05414",
+    "option_txt" : "D. Secret Manager",
+    "option_value" : "D",
+    "correct" : false
+  } ]
+}, {
+  "_id" : "175e861d-2f5f-4657-9080-d21443d9ad95",
+  "question_text" : "Your organization is migrating to Google Cloud. As part of that effort, it needs to move terabytes of data from on-premises file servers to Cloud Storage. Your organization wants the migration process to be automated and to be managed by Google. Your organization has an existing Dedicated Interconnect connection that it wants to use. Which Google Cloud product or feature should your organization use?",
+  "options" : [ {
+    "_id" : "e4ac134f-11f1-4cd1-93b0-4f49b430b375",
+    "option_txt" : "A. Storage Transfer Service",
+    "option_value" : "A",
+    "correct" : true
+  }, {
+    "_id" : "2309d878-e16e-43c6-baaa-cac622bdb224",
+    "option_txt" : "B. Migrate for Anthos",
+    "option_value" : "B",
+    "correct" : false
+  }, {
+    "_id" : "9c0081be-c7e6-4ab0-aff3-283385d5c6f4",
+    "option_txt" : "C. BigQuery Data Transfer Service",
+    "option_value" : "C",
+    "correct" : false
+  }, {
+    "_id" : "3b3d46c7-3362-4c5c-88d2-3f49a6246706",
+    "option_txt" : "D. Transfer Appliance",
+    "option_value" : "D",
+    "correct" : false
+  } ]
+}, {
+  "_id" : "bdcf8c8b-0bec-4da7-a481-5e5eeec28b25",
+  "question_text" : "Your organization needs to analyze data in order to gather insights into its daily operations. You only want to pay for the data you store and the queries you perform. Which Google Cloud product should your organization choose for its data analytics warehouse?",
+  "options" : [ {
+    "_id" : "e85437fe-a0b8-4583-85c3-778c5cf185f9",
+    "option_txt" : "A. Cloud SQL",
+    "option_value" : "A",
+    "correct" : false
+  }, {
+    "_id" : "8aa11632-37a5-4487-949e-7e991780074a",
+    "option_txt" : "B. Dataproc",
+    "option_value" : "B",
+    "correct" : false
+  }, {
+    "_id" : "51ca3ce2-3e49-4df2-a9ad-d6c35a4463ae",
+    "option_txt" : "C. Cloud Spanner",
+    "option_value" : "C",
+    "correct" : false
+  }, {
+    "_id" : "844a47d4-0871-4112-8bd6-df213ea7f8be",
+    "option_txt" : "D. BigQuery",
+    "option_value" : "D",
+    "correct" : true
+  } ]
+}, {
+  "_id" : "c9e1d396-1e4d-4112-b481-4f31f808dd8b",
+  "question_text" : "Your organization wants to run a container-based application on Google Cloud. This application is expected to increase in complexity. You have a security need for fine-grained control of traffic between the containers. You also have an operational need to exercise fine-grained control over the application's scaling policies. What Google Cloud product or feature should your organization use?",
+  "options" : [ {
+    "_id" : "71fd4d25-dbdc-4d84-a782-57006eb60f26",
+    "option_txt" : "A. Google Kubernetes Engine cluster",
+    "option_value" : "A",
+    "correct" : true
+  }, {
+    "_id" : "95d8df1b-9147-4f3b-b8c6-2eaf3234e6f3",
+    "option_txt" : "B. App Engine",
+    "option_value" : "B",
+    "correct" : false
+  }, {
+    "_id" : "bbd37281-ca20-4915-aefe-77c3137e7293",
+    "option_txt" : "C. Cloud Run",
+    "option_value" : "C",
+    "correct" : false
+  }, {
+    "_id" : "7bcc8a46-6422-4cfa-9b43-25577ea9f704",
+    "option_txt" : "D. Compute Engine virtual machines",
+    "option_value" : "D",
+    "correct" : false
+  } ]
+}, {
+  "_id" : "6dcb5ece-1984-41a4-a0f8-dfd691eca1fc",
+  "question_text" : "Which Google Cloud product or feature makes specific recommendations based on security risks and compliance violations?",
+  "options" : [ {
+    "_id" : "4ae441c0-2e69-48af-a630-91742ae374b7",
+    "option_txt" : "A. Google Cloud firewalls",
+    "option_value" : "A",
+    "correct" : false
+  }, {
+    "_id" : "b62b3ecd-07d4-47fc-87d7-859cc681e570",
+    "option_txt" : "B. Security Command Center",
+    "option_value" : "B",
+    "correct" : true
+  }, {
+    "_id" : "9f9f6630-d648-425e-ac65-a75ba4e8e0d3",
+    "option_txt" : "C. Cloud Deployment Manager",
+    "option_value" : "C",
+    "correct" : false
+  }, {
+    "_id" : "cb3b6644-d3b0-4993-938b-64f71bace0c1",
+    "option_txt" : "D. Google Cloud Armor",
+    "option_value" : "D",
+    "correct" : false
+  } ]
+}, {
+  "_id" : "6601a24a-a677-4e4f-944d-389d99947d96",
+  "question_text" : "Which Google Cloud product provides a consistent platform for multi-cloud application deployments and extends other Google Cloud services to your organization's environment?",
+  "options" : [ {
+    "_id" : "b7d0088e-3fbe-4271-a767-94262a5f950c",
+    "option_txt" : "A. Google Kubernetes Engine",
+    "option_value" : "A",
+    "correct" : false
+  }, {
+    "_id" : "e97ffaaf-0a28-4804-bf4d-d1e1c00e8644",
+    "option_txt" : "B. Virtual Public Cloud",
+    "option_value" : "B",
+    "correct" : false
+  }, {
+    "_id" : "1ed98a0f-491f-41dc-a31a-696b66f64ec8",
+    "option_txt" : "C. Compute Engine",
+    "option_value" : "C",
+    "correct" : false
+  }, {
+    "_id" : "b72d0787-8404-41f2-9fc1-7575587d40d0",
+    "option_txt" : "D. Anthos",
+    "option_value" : "D",
+    "correct" : true
+  } ]
+}, {
+  "_id" : "40c1f9e9-a597-429e-bea7-d5aaff5c5b5a",
+  "question_text" : "Your organization is developing an application that will manage payments and online bank accounts located around the world. The most critical requirement for your database is that each transaction is handled consistently. Your organization anticipates almost unlimited growth in the amount of data stored. Which Google Cloud product should your organization choose?",
+  "options" : [ {
+    "_id" : "117410c0-9811-475d-b4f3-7819ef63395b",
+    "option_txt" : "A. Cloud SQL",
+    "option_value" : "A",
+    "correct" : false
+  }, {
+    "_id" : "a2828427-0734-4831-b7c8-1ca504763ae9",
+    "option_txt" : "B. Cloud Storage",
+    "option_value" : "B",
+    "correct" : false
+  }, {
+    "_id" : "f248dd4e-b7c1-42b5-b934-f162cd8377a3",
+    "option_txt" : "C. Firestore",
+    "option_value" : "C",
+    "correct" : true
+  }, {
+    "_id" : "5b54d422-3488-48f5-90d0-786d3dfb5377",
+    "option_txt" : "D. Cloud Spanner",
+    "option_value" : "D",
+    "correct" : false
+  } ]
+}, {
+  "_id" : "9ec8b75f-2e16-4ced-9f22-936ebe413438",
+  "question_text" : "Your organization wants an economical solution to store data such as files, graphical images, and videos and to access and share them securely. Which Google Cloud product or service should your organization use?",
+  "options" : [ {
+    "_id" : "89ceec1f-6777-448a-8d8d-b779f3b2b237",
+    "option_txt" : "A. Cloud Storage",
+    "option_value" : "A",
+    "correct" : true
+  }, {
+    "_id" : "76ebcdd1-b48c-4b85-a25c-98f18b4f8ac8",
+    "option_txt" : "B. Cloud SQL",
+    "option_value" : "B",
+    "correct" : false
+  }, {
+    "_id" : "6b2b7dcb-16bc-4eb9-ac8e-10612ad99ac3",
+    "option_txt" : "C. Cloud Spanner",
+    "option_value" : "C",
+    "correct" : false
+  }, {
+    "_id" : "2599d236-bde1-45f9-8439-65096d967209",
+    "option_txt" : "D. BigQuery",
+    "option_value" : "D",
+    "correct" : false
+  } ]
+}, {
+  "_id" : "537c57ea-c2a1-477e-b992-095abc8f2209",
+  "question_text" : "Your organization wants to predict the behavior of visitors to its public website. To do that, you have decided to build a machine learning model. Your team has database-related skills but only basic machine learning skills, and would like to use those database skills. Which Google Cloud product or feature should your organization choose?",
+  "options" : [ {
+    "_id" : "0481d665-3699-4632-bf3c-e8541c158d63",
+    "option_txt" : "A. BigQuery ML",
+    "option_value" : "A",
+    "correct" : true
+  }, {
+    "_id" : "9bc5ffc0-faea-4920-beeb-7f35fdd65961",
+    "option_txt" : "B. LookML",
+    "option_value" : "B",
+    "correct" : false
+  }, {
+    "_id" : "1f59606a-8bb2-4ed6-970b-9a0d5393ebf1",
+    "option_txt" : "C. TensorFlow",
+    "option_value" : "C",
+    "correct" : false
+  }, {
+    "_id" : "df279185-fda4-42ec-908b-b3899b16bbea",
+    "option_txt" : "D. Cloud SQL",
+    "option_value" : "D",
+    "correct" : false
+  } ]
+}, {
+  "_id" : "2acd4e6b-0274-40c6-9b79-bebf0e351e02",
+  "question_text" : "Your organization needs to restrict access to a Cloud Storage bucket. Only employees who are based in Canada should be allowed to view the contents. What is the most effective and efficient way to satisfy this requirement?",
+  "options" : [ {
+    "_id" : "b197cae6-f6a3-4cf2-b302-29adba5eb7b7",
+    "option_txt" : "A. Deploy the Cloud Storage bucket to a Google Cloud region in Canada",
+    "option_value" : "A",
+    "correct" : false
+  }, {
+    "_id" : "5e7386e7-bced-4627-a6f0-54639d04e6fe",
+    "option_txt" : "B. Configure Google Cloud Armor to allow access to the bucket only from IP addresses based in Canada",
+    "option_value" : "B",
+    "correct" : true
+  }, {
+    "_id" : "5f469e9c-e019-4778-885e-8c32fd711638",
+    "option_txt" : "C. Give each employee who is based in Canada access to the bucket",
+    "option_value" : "C",
+    "correct" : false
+  }, {
+    "_id" : "01d4a2cb-f9e2-4ef1-88b4-d6bcbfffd11a",
+    "option_txt" : "D. Create a group consisting of all Canada-based employees, and give the group access to the bucket",
+    "option_value" : "D",
+    "correct" : false
+  } ]
+}, {
+  "_id" : "a4f8dcab-ebb5-48a9-9f54-b475f76e3039",
+  "question_text" : "Your organization is moving an application to Google Cloud. As part of that effort, it needs to migrate the application's working database from another cloud provider to Cloud SQL. The database runs on the MySQL engine. The migration must cause minimal disruption to users. Data must be secured while in transit. Which should your organization use?",
+  "options" : [ {
+    "_id" : "57abf4ef-b57a-477e-9298-4427da1b365c",
+    "option_txt" : "A. BigQuery Data Transfer Service",
+    "option_value" : "A",
+    "correct" : false
+  }, {
+    "_id" : "14da0d0a-9733-42b9-bdf7-412b8bc1aff5",
+    "option_txt" : "B. MySQL batch insert",
+    "option_value" : "B",
+    "correct" : false
+  }, {
+    "_id" : "be232ea1-81a8-4ea1-8405-c832c3dc4299",
+    "option_txt" : "C. Database Migration Service",
+    "option_value" : "C",
+    "correct" : true
+  }, {
+    "_id" : "23157927-8c49-4f0f-9da2-cfca9967000e",
+    "option_txt" : "D. Cloud Composer",
+    "option_value" : "D",
+    "correct" : false
+  } ]
+} ]

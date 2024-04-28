@@ -1,0 +1,36 @@
+meta {
+  name: CheckResults tests
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://localhost:8080/api/rest/checkResults
+  body: json
+  auth: none
+}
+
+body:json {
+  [
+     {
+        "_id":"7f5fb0f5-d9bb-4cff-a6a5-a6981b790fb4",
+        "questionId":"7fb80dc4-dca5-4a2a-ae59-9f9ccc57a382",
+        "guessOptionId":"ef17c6dc-ad23-4a5a-b471-e657d540db06"
+     },
+     {
+        "_id":"ab19a167-2e01-4d79-98aa-a42a628ff936",
+        "questionId":"c18f3959-62de-44ef-be68-4ff8374cee7f",
+        "guessOptionId":"a478b1c6-c0cf-4234-a1f0-e0bd0b8c068c"
+     },
+     {
+        "_id":"0f1ba895-7c91-42f2-a05f-05458d44396c",
+        "questionId":"175e861d-2f5f-4657-9080-d21443d9ad95",
+        "guessOptionId":"e4ac134f-11f1-4cd1-93b0-4f49b430b375"
+     },
+     {
+        "_id":"8288a38a-bfbb-47bb-be54-fbc8d43b6884",
+        "questionId":"40c1f9e9-a597-429e-bea7-d5aaff5c5b5a",
+        "guessOptionId":"5b54d422-3488-48f5-90d0-786d3dfb5377"
+     }
+  ]
+}
