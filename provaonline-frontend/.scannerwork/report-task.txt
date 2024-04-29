@@ -1,6 +1,0 @@
-projectKey=obatala-atpcode
-serverUrl=https://sonar.inca.local
-serverVersion=9.9.1.69595
-dashboardUrl=https://sonar.inca.local/dashboard?id=obatala-atpcode
-ceTaskId=AY8mSK6r-O74U_62526w
-ceTaskUrl=https://sonar.inca.local/api/ce/task?id=AY8mSK6r-O74U_62526w
