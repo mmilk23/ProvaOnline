@@ -5,7 +5,7 @@ It allows the creation and application of exams based on a JSON file containing 
 
 ## Directory Contents
 
-- **ProvaOnline:** Contains test scripts using the Bruno tool.
+- **ProvaOnline:** Contains test scripts using the [Bruno tool](https://github.com/usebruno/bruno).
 - **provaonline-backend:** Backend of the REST API written in Java with Quarkus.
 - **provaonline-frontend:** Frontend of the application written in JavaScript with Svelte.
 
