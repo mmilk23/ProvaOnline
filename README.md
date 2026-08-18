@@ -14,8 +14,8 @@ It allows the creation and application of exams based on a JSON file containing 
 To run the project, the following prerequisites need to be installed:
 
 - Maven 3.8.6
-- Node.js v20.11.0
-- npm 10.2.4
+- Node.js 22.x
+- npm 10.9.x
 
 ## Usage
 
@@ -29,6 +29,11 @@ To run the project, the following prerequisites need to be installed:
 
 
 Internally, Maven with the *frontend-maven-plugin* compile svelte pages, ensuring its availability in the Quarkus static folder.  Then, you don't need to start frontend project.
+## Development Workflow
+
+This repository uses `development` for day-to-day integration and `main` as the stable branch. Open pull requests into `development`, let CI/security checks pass, and promote `development` to `main` through a pull request when a release is ready.
+
+More details are available in `docs/development-process.md`.
 
 Additionally, within the resources folder, you'll find an examtests_questions.json file. I've included simulated questions for the Cloud Digital Leader exam as a sample. Feel free to substitute them with alternative questions as needed.
 
