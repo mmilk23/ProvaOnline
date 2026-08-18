@@ -178,7 +178,7 @@
 	            <format>html</format>
 	            <format>json</format>
 	          </formats>
-	          <ossindexAnalyzerEnabled>false</ossindexAnalyzerEnabled>
+	          <ossIndexAnalyzerEnabled>false</ossIndexAnalyzerEnabled>
 	        </configuration>
 	  	</plugin>
     </plugins>
