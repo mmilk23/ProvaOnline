@@ -1,0 +1,123 @@
+name: Security
+
+on:
+  pull_request:
+    branches:
+      - main
+      - development
+  push:
+    branches:
+      - main
+      - development
+  schedule:
+    - cron: "24 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  actions: read
+  contents: read
+  security-events: write
+
+concurrency:
+  group: security-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  codeql:
+    name: CodeQL
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        language:
+          - java-kotlin
+          - javascript-typescript
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Initialize CodeQL
+        uses: github/codeql-action/init@v4
+        with:
+          languages: ${{ matrix.language }}
+
+      - name: Autobuild
+        uses: github/codeql-action/autobuild@v4
+
+      - name: Analyze
+        uses: github/codeql-action/analyze@v4
+
+  dependency-check:
+    name: OWASP Dependency Check
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    if: github.event_name != 'push'
+    env:
+      DEPENDENCY_CHECK_DATA: ${{ github.workspace }}/.dependency-check-data
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Setup Java
+        uses: actions/setup-java@v5
+        with:
+          distribution: temurin
+          java-version: 17
+          cache: maven
+
+      - name: Generate weekly cache key
+        id: cache-key
+        shell: bash
+        run: echo "week=$(date -u +'%G-%V')" >> "$GITHUB_OUTPUT"
+
+      - name: Restore OWASP Dependency-Check data
+        id: dependency-check-cache
+        uses: actions/cache/restore@v5
+        with:
+          path: ${{ env.DEPENDENCY_CHECK_DATA }}
+          key: dependency-check-data-v2-${{ runner.os }}-${{ steps.cache-key.outputs.week }}
+          restore-keys: |
+            dependency-check-data-v2-${{ runner.os }}-
+
+      - name: Run OWASP Dependency-Check
+        shell: bash
+        working-directory: provaonline-backend
+        env:
+          NVD_API_KEY: ${{ secrets.NVD_API_KEY }}
+          CACHE_HIT: ${{ steps.dependency-check-cache.outputs.cache-hit }}
+        run: |
+          mkdir -p "${DEPENDENCY_CHECK_DATA}"
+
+          args=(
+            mvn --batch-mode org.owasp:dependency-check-maven:check
+            -DskipTests
+            "-DdataDirectory=${DEPENDENCY_CHECK_DATA}"
+            --file pom.xml
+          )
+
+          # Exact weekly cache hits already contain recent NVD data.
+          # Avoid contacting the NVD API on every pull request.
+          if [ "${CACHE_HIT}" = "true" ] && [ "${{ github.event_name }}" = "pull_request" ]; then
+            args+=("-DautoUpdate=false")
+          elif [ -n "${NVD_API_KEY}" ]; then
+            args+=("-DnvdApiKey=${NVD_API_KEY}")
+          fi
+
+          "${args[@]}"
+
+      - name: Save OWASP Dependency-Check data
+        if: success() && steps.dependency-check-cache.outputs.cache-hit != 'true'
+        uses: actions/cache/save@v5
+        with:
+          path: ${{ env.DEPENDENCY_CHECK_DATA }}
+          key: dependency-check-data-v2-${{ runner.os }}-${{ steps.cache-key.outputs.week }}
+
+      - name: Upload dependency check report
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: dependency-check-report
+          path: |
+            provaonline-backend/target/dependency-check-report.html
+            provaonline-backend/target/dependency-check-report.json
+          if-no-files-found: warn

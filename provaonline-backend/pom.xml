@@ -6,17 +6,20 @@
   <artifactId>provaonline-backend</artifactId>
   <version>1.0.0-SNAPSHOT</version>
   <properties>
-    <compiler-plugin.version>3.11.0</compiler-plugin.version>
+    <compiler-plugin.version>3.14.1</compiler-plugin.version>
     <maven.compiler.release>17</maven.compiler.release>
+    <frontend-maven-plugin.version>2.0.0</frontend-maven-plugin.version>
+    <node.version>v22.18.0</node.version>
+    <npm.version>10.9.3</npm.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    <quarkus.platform.version>3.9.5</quarkus.platform.version>
+    <quarkus.platform.version>3.37.2</quarkus.platform.version>
     <skipITs>true</skipITs>
-    <surefire-plugin.version>3.2.5</surefire-plugin.version>
-    <lombok.version>1.18.30</lombok.version>
-    <dependency-check-maven.version>9.1.0</dependency-check-maven.version>
+    <surefire-plugin.version>3.5.4</surefire-plugin.version>
+    <lombok.version>1.18.38</lombok.version>
+    <dependency-check-maven.version>12.2.2</dependency-check-maven.version>
 	
-	<sonar-maven-plugin.version>3.11.0.3922</sonar-maven-plugin.version>
+	<sonar-maven-plugin.version>5.7.0.6970</sonar-maven-plugin.version>
 	<sonar.dependencyCheck.htmlReportPath>target/dependency-check-report.html</sonar.dependencyCheck.htmlReportPath>
     <sonar.dependencyCheck.jsonReportPath>target/dependency-check-report.json</sonar.dependencyCheck.jsonReportPath>
     <sonar.dependencyCheck.summarize>true</sonar.dependencyCheck.summarize>
@@ -47,7 +50,7 @@
     <!-- tests -->
     <dependency>
       <groupId>io.quarkus</groupId>
-      <artifactId>quarkus-junit5</artifactId>
+      <artifactId>quarkus-junit</artifactId>
       <scope>test</scope>
     </dependency>
     <dependency>
@@ -69,7 +72,7 @@
 	 <plugin>
         <groupId>com.github.eirslett</groupId>
         <artifactId>frontend-maven-plugin</artifactId>
-        <version>1.6</version>
+        <version>${frontend-maven-plugin.version}</version>
         <configuration>
           <workingDirectory>${project.basedir}/../provaonline-frontend/</workingDirectory>
           <installDirectory>${project.build.directory}</installDirectory>
@@ -81,8 +84,8 @@
               <goal>install-node-and-npm</goal>
             </goals>
             <configuration>
-              <nodeVersion>v20.11.0</nodeVersion>
-              <npmVersion>10.2.4</npmVersion>
+              <nodeVersion>${node.version}</nodeVersion>
+              <npmVersion>${npm.version}</npmVersion>
             </configuration>
           </execution>
           <execution>
@@ -91,7 +94,7 @@
               <goal>npm</goal>
             </goals>
             <configuration>
-              <arguments>install</arguments>
+              <arguments>ci</arguments>
             </configuration>
           </execution>
           <execution>
@@ -170,19 +173,12 @@
 	        <groupId>org.owasp</groupId>
 	        <artifactId>dependency-check-maven</artifactId>
 	        <version>${dependency-check-maven.version}</version>
-	        <executions>
-	          <execution>
-	            <goals>
-	              <goal>check</goal>
-	            </goals>
-	          </execution>
-	        </executions>
 	        <configuration>
 	          <formats>
 	            <format>html</format>
 	            <format>json</format>
 	          </formats>
-	          <ossindexAnalyzerEnabled>false</ossindexAnalyzerEnabled>
+	          <ossIndexAnalyzerEnabled>false</ossIndexAnalyzerEnabled>
 	        </configuration>
 	  	</plugin>
     </plugins>
