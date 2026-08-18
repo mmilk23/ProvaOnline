@@ -11,9 +11,10 @@
     <frontend-maven-plugin.version>2.0.0</frontend-maven-plugin.version>
     <node.version>v22.18.0</node.version>
     <npm.version>10.9.3</npm.version>
+    <jackson-databind.version>2.22.1</jackson-databind.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    <quarkus.platform.version>3.37.2</quarkus.platform.version>
+    <quarkus.platform.version>3.37.3</quarkus.platform.version>
     <skipITs>true</skipITs>
     <surefire-plugin.version>3.5.4</surefire-plugin.version>
     <lombok.version>1.18.38</lombok.version>
@@ -34,6 +35,11 @@
         <version>${quarkus.platform.version}</version>
         <type>pom</type>
         <scope>import</scope>
+      </dependency>
+      <dependency>
+        <groupId>com.fasterxml.jackson.core</groupId>
+        <artifactId>jackson-databind</artifactId>
+        <version>${jackson-databind.version}</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
