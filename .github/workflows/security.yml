@@ -72,7 +72,7 @@ jobs:
 
       - name: Restore OWASP Dependency-Check data
         id: dependency-check-cache
-        uses: actions/cache/restore@v5
+        uses: actions/cache/restore@v6
         with:
           path: ${{ env.DEPENDENCY_CHECK_DATA }}
           key: dependency-check-data-v2-${{ runner.os }}-${{ steps.cache-key.outputs.week }}
@@ -107,7 +107,7 @@ jobs:
 
       - name: Save OWASP Dependency-Check data
         if: success() && steps.dependency-check-cache.outputs.cache-hit != 'true'
-        uses: actions/cache/save@v5
+        uses: actions/cache/save@v6
         with:
           path: ${{ env.DEPENDENCY_CHECK_DATA }}
           key: dependency-check-data-v2-${{ runner.os }}-${{ steps.cache-key.outputs.week }}
