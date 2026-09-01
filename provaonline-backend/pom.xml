@@ -18,10 +18,9 @@
     <skipITs>true</skipITs>
     <surefire-plugin.version>3.5.6</surefire-plugin.version>
     <lombok.version>1.18.46</lombok.version>
-    <dependency-check-maven.version>12.2.2</dependency-check-maven.version>
-	
-	<sonar-maven-plugin.version>5.7.0.6970</sonar-maven-plugin.version>
-	<sonar.dependencyCheck.htmlReportPath>target/dependency-check-report.html</sonar.dependencyCheck.htmlReportPath>
+    <dependency-check-maven.version>12.2.2</dependency-check-maven.version>	
+	  <sonar-maven-plugin.version>5.7.0.6970</sonar-maven-plugin.version>
+	  <sonar.dependencyCheck.htmlReportPath>target/dependency-check-report.html</sonar.dependencyCheck.htmlReportPath>
     <sonar.dependencyCheck.jsonReportPath>target/dependency-check-report.json</sonar.dependencyCheck.jsonReportPath>
     <sonar.dependencyCheck.summarize>true</sonar.dependencyCheck.summarize>
     <sonar.language>java</sonar.language> 
