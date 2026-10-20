@@ -11,7 +11,7 @@
     <frontend-maven-plugin.version>2.0.2</frontend-maven-plugin.version>
     <node.version>v22.18.0</node.version>
     <npm.version>10.9.3</npm.version>
-    <jackson-databind.version>2.22.2</jackson-databind.version>
+    <jackson-databind.version>2.22.3</jackson-databind.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <quarkus.platform.version>3.39.2</quarkus.platform.version>
